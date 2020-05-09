@@ -1,0 +1,14 @@
+<text class="text-xxl padding">新品上市</text>
+
+<view class="padding">
+  <view class="grid col-2 grid-square">
+    <view wx:for="{{4}}" wx:key>
+      <image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10002.jpg" style="height:150rpx"></image>
+      <text style="margin:20rpx 0;">优惠老wetwet为是哦威尔斯对</text>
+        <view style="margin-top:20rpx;">
+          <text class="text-price text-red text-xl">80.00</text>
+          <text class="text-price text-gray text-sm" style="text-decoration:line-through;margin-left:20rpx;">80.00</text>
+        </view>
+    </view>
+  </view>
+</view>

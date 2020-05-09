@@ -1,0 +1,14 @@
+<view class="cu-bar tabbar bg-white shadow foot" style="background-color: white;">
+  <view class="action" bindtap="switchTab" data-path="/pages/index/index">
+    <view class='cuIcon-cu-image'>
+      <text class="lg {{index=='index'?'cuIcon-homefill text-yellow':'cuIcon-home text-gray'}}"></text>
+    </view>
+    <view class="{{index=='index'?'text-yellow':'text-gray'}}">首页</view>
+  </view>
+  <view class="action" bindtap="switchTab" data-path="/pages/me/me">
+    <view class='cuIcon-cu-image'>
+      <text class="lg {{index=='me'?'cuIcon-peoplefill text-yellow':'cuIcon-people text-gray'}}"></text>
+    </view>
+    <view class="{{index=='me'?'text-yellow':'text-gray'}}">我的</view>
+  </view>
+</view>
